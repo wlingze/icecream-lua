@@ -1,3 +1,6 @@
+# test file 
+*_test.lua
+
 # Compiled Lua sources
 luac.out
 
