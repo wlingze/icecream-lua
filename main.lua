@@ -45,10 +45,15 @@ local function testFunc()
     end
     ic(func(a1))
 end
-
-testPrefix()
+print('---- test ic')
 testIC()
+print('---- test prefix')
+testPrefix()
+print('---- test positoin')
 testPosition()
+print('---- test no name')
 testNoName()
+print('---- test no args')
 testNoArg()
+print('---- test function')
 testFunc()
