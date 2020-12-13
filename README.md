@@ -7,7 +7,7 @@ lua version of [IceCraem](https://github.com/gruns/icecream).
 ## install
 
 ```sh
-luarocks install icecream 
+luarocks install icecream-lua
 ```
 
 ## use
