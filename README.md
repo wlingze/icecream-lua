@@ -32,7 +32,7 @@ ic(x,y)
 
 output  `ic| a = 1` and `ic| x = 1, y = 1`
 
-**The exmple of printing function**
+**The example of printing function**
 
 ```lua
 local function fun1(a) 
@@ -43,7 +43,7 @@ ic(fun1(22))
 
 output  `ic| fun1(22) = 23`
 
-**The exmple when there are no parameters**
+**The example when there are no parameters**
 
 ```lua
 ic()
