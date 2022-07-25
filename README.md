@@ -2,7 +2,7 @@
 
 Never use print() to debug again. (lua)
 
-lua version of [IceCraem](https://github.com/gruns/icecream).
+lua version of [IceCream](https://github.com/gruns/icecream).
 
 ## install
 
@@ -32,7 +32,7 @@ ic(x,y)
 
 output  `ic| a = 1` and `ic| x = 1, y = 1`
 
-**The exmple of printing function**
+**The example of printing function**
 
 ```lua
 local function fun1(a) 
@@ -43,7 +43,7 @@ ic(fun1(22))
 
 output  `ic| fun1(22) = 23`
 
-**The exmple when there are no parameters**
+**The example when there are no parameters**
 
 ```lua
 ic()
@@ -51,7 +51,7 @@ ic()
 
 output: `ic| ` + filename + line + function, like this: `ic| /home/wlz/gh/icecream-lua/main.lua:37: in local 'testNoArg'`
 
-**The exmple when there is no variable name**
+**The example when there is no variable name**
 
 ```lua
 ic(1, 2)
@@ -59,7 +59,7 @@ ic(1, 2)
 
 output: `ic| 1, 2`
 
-**The exmple of display line munber**
+**The example of display line number**
 
 ```lua
 ic(x,y)
