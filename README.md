@@ -12,7 +12,7 @@ luarocks install icecream-lua
 
 ## use
 
-improt module:
+import module:
 
 ```lua
 local ic = require("icecream")
@@ -51,7 +51,7 @@ ic()
 
 output: `ic| ` + filename + line + function, like this: `ic| /home/wlz/gh/icecream-lua/main.lua:37: in local 'testNoArg'`
 
-**The exmple when there is no variable name**
+**The example when there is no variable name**
 
 ```lua
 ic(1, 2)
@@ -59,7 +59,7 @@ ic(1, 2)
 
 output: `ic| 1, 2`
 
-**The exmple of display line munber**
+**The example of display line number**
 
 ```lua
 ic(x,y)
