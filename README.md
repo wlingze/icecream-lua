@@ -2,7 +2,7 @@
 
 Never use print() to debug again. (lua)
 
-lua version of [IceCraem](https://github.com/gruns/icecream).
+lua version of [IceCream](https://github.com/gruns/icecream).
 
 ## install
 
