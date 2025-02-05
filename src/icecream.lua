@@ -66,6 +66,8 @@ function IceCream:IceCreamDebug(...)
     local lenOfValues = select("#", ...)
     local line, filename, buf
 
+    if not self.isPrintEnabled then return nil  end
+
     stack = match(split(debug.traceback(), '\n')[3], "^%s*(.-)%s*$")
     buf = split(stack, ':')
     filename = buf[1]
