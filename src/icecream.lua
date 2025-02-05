@@ -120,6 +120,10 @@ function IceCream:ResetPrefix()
     self.prefixString = "ic| "
 end
 
+---Disables IceCream execution
+function IceCream:IsDisable()
+    self.isPrintEnabled = false
+end
 
 local IceCreamMate = {}
 IceCreamMate = {
