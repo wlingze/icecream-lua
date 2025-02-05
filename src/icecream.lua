@@ -8,7 +8,8 @@ local match  = string.match
 ---@class IceCream
 local IceCream = {
     prefixString = "ic| ",
-    isOutputPosition = false
+    isOutputPosition = false,
+    isPrintEnabled = true
 }
 
 ---Print the msg to stderr
