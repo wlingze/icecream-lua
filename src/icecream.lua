@@ -125,6 +125,12 @@ function IceCream:IsDisable()
     self.isPrintEnabled = false
 end
 
+--- Enables IceCream execution
+--- Default: true
+function IceCream:IsEnable()
+    self.isPrintEnabled = true
+end
+
 local IceCreamMate = {}
 IceCreamMate = {
     __call = IceCream.IceCreamDebug
