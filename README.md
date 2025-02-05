@@ -70,4 +70,18 @@ ic(x,y)
 -- ic| x = 1, y = 1
 ```
 
+**Example of enabling and disabling print**
+
+```lua
+local  x = 1
+local  y = 2
+local  z = 3
+
+ic:isDisable()
+ic(x)
+ic(y)
+ic:IsEnable()
+ic(z)
+-- ic| z = 3
+```
 
