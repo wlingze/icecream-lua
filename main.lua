@@ -45,6 +45,19 @@ local function testFunc()
     end
     ic(func(a1))
 end
+
+local function testDisable()
+    local noPrint = "no print"
+    ic:IsDisable()
+    ic(noPrint)
+end
+
+local function testEnable()
+    local yesPrint = "yes print"
+    ic:IsEnable()
+    ic(yesPrint)
+end
+
 print('---- test ic')
 testIC()
 print('---- test prefix')
@@ -57,3 +70,7 @@ print('---- test no args')
 testNoArg()
 print('---- test function')
 testFunc()
+print('---- test disable')
+testDisable()
+print('---- test enable')
+testEnable()
