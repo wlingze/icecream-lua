@@ -77,10 +77,10 @@ local  x = 1
 local  y = 2
 local  z = 3
 
-ic:isDisable()
+ic:Disable()
 ic(x)
 ic(y)
-ic:IsEnable()
+ic:Enable()
 ic(z)
 -- ic| z = 3
 ```

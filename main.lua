@@ -48,13 +48,13 @@ end
 
 local function testDisable()
     local noPrint = "no print"
-    ic:IsDisable()
+    ic:Disable()
     ic(noPrint)
 end
 
 local function testEnable()
     local yesPrint = "yes print"
-    ic:IsEnable()
+    ic:Enable()
     ic(yesPrint)
 end
 

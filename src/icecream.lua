@@ -123,13 +123,13 @@ function IceCream:ResetPrefix()
 end
 
 ---Disables IceCream execution
-function IceCream:IsDisable()
+function IceCream:Disable()
     self.isPrintEnabled = false
 end
 
 --- Enables IceCream execution
 --- Default: true
-function IceCream:IsEnable()
+function IceCream:Enable()
     self.isPrintEnabled = true
 end
 
